@@ -1,6 +1,6 @@
 #!/bin/bash
 #git pull
-#read -p "module name:" x
+read -p "${env.Module}:" x
 #ayna -single http://appointy.com/$x/
 echo "url: http://appointy.com/$x/"
 cd root/

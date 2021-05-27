@@ -26,6 +26,7 @@ pipeline {
                         sh 'apt install uncss -y'
                         sh 'apt install rsync -y'
                         sh 'apt install sed -y'
+                        sh 'read ${env.Module}: x'
                         sh 'bash qa-run.sh'                        
                         sh 'ls -la'                                      
                         sh 'pwd'                                                                      
