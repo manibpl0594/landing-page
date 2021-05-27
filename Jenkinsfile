@@ -22,7 +22,7 @@ pipeline {
                         sh 'ls root/'                        
                         sh 'pwd'
                         sh 'ls -a'
-                        sh 'qa-run.sh'                        
+                        sh './qa-run.sh'                        
                         sh 'ls -la'                                      
                         sh 'pwd'                                                                      
                     }
