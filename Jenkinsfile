@@ -15,14 +15,7 @@ pipeline {
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
                         sh 'ls root/'
-                        dir('root'){
-                            sh 'pwd'
-                            sh 'bash ../changes-qa.sh'
-                        }
-                        sh 'pwd'
-                        docker.withRegistry('https://eu.gcr.io', 'gcr:appointy-global') {
-                            app = docker.build('appointy-global/landing-pages-qa', '-f Dockerfile .')
-                            app.push("${env.BUILD_NUMBER}")
+                        sh 'pwd'                       
                             }
                         }                                                
                 }
