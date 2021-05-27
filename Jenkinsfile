@@ -21,11 +21,7 @@ pipeline {
                         sh "cat /etc/hosts"
                         sh 'ls root/'                        
                         sh 'pwd'
-                        sh 'ls -a'
-                        sh 'apt install npm -y'
-                        sh 'apt install uncss -y'
-                        sh 'apt install rsync -y'
-                        sh 'apt install sed -y'
+                        sh 'ls -a'                       
                         sh 'read ${env.Module}: x'
                         sh 'bash qa-run.sh'                        
                         sh 'ls -la'                                      
