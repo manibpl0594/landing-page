@@ -14,20 +14,20 @@ pipeline {
                                         parameters:[choice(choices: CHOICES, description: 'Select a tag for this build', name: 'TAG')]
                         echo "Deploying ${env.Module}."
                         sh 'go get github.com/srikrsna/ayna'
-                        sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"                        
-                        sh 'ls -a'
+                        sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"
+                        sh 'rm -rf root/*'
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
-                        sh 'ls root/'                        
-                        sh 'pwd'
-                        sh 'ls -a'
-                        sh ''' "echo ${env.Module}" '''        
-                        sh 'bash qa-run.sh'                        
-                        sh 'ls -la'                                      
-                        sh 'pwd'  
-                        }                                                                    
+                        sh 'ls root/'
+                        dir('root'){
+                            sh 'pwd'
+                            sh 'bash ../changes-qa.sh'
+                        }
+                        sh 'pwd'                                                                      
                     }
                 }
             }
         }
     }
+}
+
