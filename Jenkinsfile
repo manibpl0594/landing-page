@@ -19,25 +19,11 @@ pipeline {
                         sh 'ls -a'
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
-                        sh 'ls root/'                                               
-                        echo "url: http://appointy.com/${env.Module}/"
-                        cd root/
-                        sh 'mv wp-content/* ${env.Module}/'
-                        sh 'mv wp-includes/* ${env.Module}/'
-                        sh 'rm -rf  wp-content'
-                        sh 'rm -rf wp-includes'
-                        sh 'mkdir -p ${env.Module}/uploads/2020/04'
-                        sh 'cp ../cropped-* ${env.Module}/uploads/2020/04/'
-                        sh 'uncss ${env.Module}/index.html > ${env.Module}/xy.css'
-                        sh 'cd ${env.Module}'
-                        sh 'find . -type f -name index.html -print0 | xargs -0 sed -i -e "s|/cache/asset-cleanup/css/head-.*\.css|/xy.css|g"'
-                        sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s/http:/https:/g"'
-                        sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/appointy.com|/qa-www.appointy.com|g"'
-                        sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-content|/${env.Module}|g"'
-                        sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-includes|/${env.Module}|g"'
-                        sh 'chmod 755 xy.css'
-                        sh 'cd ../..'                        
-                        sh 'rsync -Parv root/${env.Module}/* landing-pages/${env.Module}/'
+                        sh 'ls root/'
+                        dir('root'){
+                            sh 'pwd'
+                            sh 'qa-run.sh'
+                        } 
                         sh 'ls -la'                                      
                         sh 'pwd'                                                                      
                     }
