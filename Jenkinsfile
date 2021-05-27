@@ -21,11 +21,15 @@ pipeline {
                         sh "cat /etc/hosts"
                         sh 'ls root/'                        
                         sh 'pwd'
-                        sh 'ls -a'                       
-                        sh 'read ${env.Module}: x'
-                        sh 'bash qa-run.sh'                        
-                        sh 'ls -la'                                      
-                        sh 'pwd'                                                                      
+                        sh 'ls -a'
+        stage('bash') {
+            steps {
+                echo "Database engine is ${env.Module}"          
+                sh 'bash qa-run.sh'                        
+                sh 'ls -la'                                      
+                sh 'pwd'  
+            }
+                    }                                                                    
                     }
                 }
             }
