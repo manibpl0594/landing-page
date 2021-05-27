@@ -12,8 +12,6 @@ pipeline {
                         env.Module = input  message: 'What are we deploying today?',ok : 'Deploy',
                                         parameters:[choice(choices: CHOICES, description: 'Select a tag for this build', name: 'TAG')]
                         echo "Deploying ${env.Module}."
-                        sh 'sudo apt install go'
-                        sh 'go get github.com/srikrsna/ayna'
                         sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"
                         sh 'rm -rf root/*'
                         sh "ayna -single http://appointy.com/${env.Module}"
