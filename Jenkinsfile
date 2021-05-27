@@ -2,7 +2,7 @@ List<String> CHOICES = [];
 
 def app = 'Unknown'
 pipeline {
-    agent { label 'master' }
+    agent { label 'agent' }
     stages {
         stage('build') {
             steps {
