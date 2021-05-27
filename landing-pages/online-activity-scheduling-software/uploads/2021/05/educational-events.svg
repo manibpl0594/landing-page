@@ -1,0 +1,16 @@
+<svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="9" y="1" width="86" height="60" rx="1" fill="white" stroke="#B8C0CC" stroke-width="2"/>
+<path d="M65.7337 29.3267V40.1075L51.0234 45.6919L36.5109 40.0718V29.254" fill="white"/>
+<path d="M65.7337 29.3267V40.1075L51.0234 45.6919L36.5109 40.0718V29.254" stroke="#53A1FF" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74.2914 28.6058L74.2914 37.1488" stroke="#53A1FF" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72.8019 39.0108L73.5105 38.125C73.9108 37.6246 74.6719 37.6246 75.0723 38.125L75.7808 39.0108C75.9227 39.1881 76 39.4084 76 39.6354V41.7018C76 42.2541 75.5523 42.7018 75 42.7018H73.5828C73.0305 42.7018 72.5828 42.2541 72.5828 41.7018V39.6354C72.5828 39.4084 72.6601 39.1881 72.8019 39.0108Z" fill="white" stroke="#53A1FF" stroke-width="1.88"/>
+<path d="M27.8353 28.3407L51.1223 19.2086L74.4092 28.3407L51.1223 37.4729L27.8353 28.3407Z" fill="white" stroke="#53A1FF" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1" y="1" width="102" height="6" rx="1" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<rect x="1" y="56" width="102" height="6" rx="1" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<circle cx="18" cy="76" r="8" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<path d="M32.8911 102.119C32.9407 102.544 32.5875 103 32 103H6C5.41246 103 5.05931 102.544 5.10892 102.119C5.97811 94.6716 11.9129 89 19 89C26.0871 89 32.0219 94.6716 32.8911 102.119Z" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<path d="M66.8844 102.127C66.9362 102.544 66.5903 103 66 103H38C37.4097 103 37.0638 102.544 37.1156 102.127C38.0365 94.7274 44.3502 89 52 89C59.6498 89 65.9635 94.7274 66.8844 102.127Z" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<path d="M98.8911 102.119C98.9407 102.544 98.5875 103 98 103H72C71.4125 103 71.0593 102.544 71.1089 102.119C71.9781 94.6716 77.9129 89 85 89C92.0871 89 98.0219 94.6716 98.8911 102.119Z" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<circle cx="52" cy="76" r="8" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<circle cx="86" cy="76" r="8" fill="white" stroke="#53A1FF" stroke-width="2"/>
+</svg>

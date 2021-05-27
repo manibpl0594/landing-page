@@ -1,0 +1,20 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="90" cy="90" r="90" fill="#F0F4F7"/>
+<rect x="49" y="38.8354" width="81.7373" height="91.9909" rx="3" fill="white" stroke="#B8C0CC" stroke-width="2"/>
+<path d="M82.1786 84.8308H119.775" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M82.1786 112.174H106.104" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M82.1786 77.1406H119.775" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M82.1786 105.338H119.775" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M82.1786 91.6665H106.104" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<rect x="60.8625" y="78.0406" width="11.8714" height="11.8714" rx="1.1" fill="white" stroke="#53A1FF" stroke-width="1.8"/>
+<rect x="60.8626" y="105.383" width="11.8714" height="11.8714" rx="1.1" fill="white" stroke="#53A1FF" stroke-width="1.8"/>
+<path d="M65.0369 83.8328L67.4648 86.4177L74.8048 79.0938" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65.0369 83.8328L67.4648 86.4177L74.8048 79.0938" stroke="#53A1FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65.0369 111.664L67.4648 114.249L74.8048 106.925" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65.0369 111.664L67.4648 114.249L74.8048 106.925" stroke="#53A1FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68.5071 31V45.6479" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M130.883 63.4667L48.8545 63.4692" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M112.451 31V45.6479" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M109.057 113.028C109.057 101.451 118.432 92.0562 130.007 92.0562C141.606 92.0562 151.001 101.452 151.001 113.028C151.001 124.604 141.606 134 130.007 134C118.432 134 109.057 124.606 109.057 113.028Z" fill="white" stroke="#53A1FF" stroke-width="2"/>
+<path d="M127.832 102.042V115.226L139.367 122.147" stroke="#53A1FF" stroke-width="2" stroke-linecap="round"/>
+</svg>

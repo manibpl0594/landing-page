@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96.978" height="171.472" viewBox="0 0 96.978 171.472">
+  <g id="Group_518" data-name="Group 518" transform="translate(-581.623 -314.667)">
+    <rect id="Rectangle_617" data-name="Rectangle 617" width="90.46" height="65.499" rx="6.73" transform="translate(582.873 315.667)" stroke-width="2" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+    <path id="Path_654" data-name="Path 654" d="M600.13,440.466s-29.13-22.3-5.374-59.3" fill="none" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.883"/>
+    <g id="Group_517" data-name="Group 517">
+      <path id="Rectangle_618" data-name="Rectangle 618" d="M7.227,0H44.579A44.883,44.883,0,0,1,89.462,44.883v0A44.579,44.579,0,0,1,44.883,89.462h0A44.883,44.883,0,0,1,0,44.579V7.227A7.227,7.227,0,0,1,7.227,0Z" transform="translate(677.66 485.197) rotate(180)" fill="#fff"/>
+      <path id="Path_655" data-name="Path 655" d="M633.334,395.8h0a44.425,44.425,0,0,0-6.933.545c18.238-.428,43.024,13.046,43.024,43.976V478.7a6.321,6.321,0,0,1-6.3,6.3h8.43a6.321,6.321,0,0,0,6.3-6.3v-38.38A44.652,44.652,0,0,0,633.334,395.8Z" fill="#eaeff4"/>
+      <path id="Rectangle_619" data-name="Rectangle 619" d="M7.227,0H44.579A44.883,44.883,0,0,1,89.462,44.883v0A44.579,44.579,0,0,1,44.883,89.462h0A44.883,44.883,0,0,1,0,44.579V7.227A7.227,7.227,0,0,1,7.227,0Z" transform="translate(677.66 485.197) rotate(180)" fill="none" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.883"/>
+      <ellipse id="Ellipse_323" data-name="Ellipse 323" cx="2.588" cy="4.085" rx="2.588" ry="4.085" transform="translate(607.06 423.143)" fill="#b8c0cc"/>
+      <ellipse id="Ellipse_324" data-name="Ellipse 324" cx="2.588" cy="4.085" rx="2.588" ry="4.085" transform="translate(623.173 423.143)" fill="#b8c0cc"/>
+    </g>
+    <circle id="Ellipse_325" data-name="Ellipse 325" cx="4.663" cy="4.663" r="4.663" transform="translate(656.896 375.845)" fill="#b8c0cc"/>
+    <circle id="Ellipse_326" data-name="Ellipse 326" cx="4.663" cy="4.663" r="4.663" transform="translate(590.09 375.845)" fill="#b8c0cc"/>
+    <rect id="Rectangle_620" data-name="Rectangle 620" width="20.667" height="17.667" rx="4.917" transform="translate(619.167 418.167)" fill="#fff" opacity="0.4"/>
+    <rect id="Rectangle_621" data-name="Rectangle 621" width="20.667" height="17.667" rx="4.917" transform="translate(619.167 418.167)" stroke-width="1.883" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect id="Rectangle_622" data-name="Rectangle 622" width="20.667" height="17.667" rx="4.917" transform="translate(595 418.167)" fill="#fff" opacity="0.4"/>
+    <rect id="Rectangle_623" data-name="Rectangle 623" width="20.667" height="17.667" rx="4.917" transform="translate(595 418.167)" stroke-width="1.883" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line id="Line_148" data-name="Line 148" x2="90.46" transform="translate(582.873 325.5)" opacity="0.4" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+    <line id="Line_149" data-name="Line 149" x2="90.46" transform="translate(582.873 336.875)" opacity="0.4" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+    <line id="Line_150" data-name="Line 150" x2="90.46" transform="translate(582.873 348.25)" opacity="0.4" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+    <line id="Line_151" data-name="Line 151" x2="90.46" transform="translate(582.873 359.625)" opacity="0.4" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+    <line id="Line_152" data-name="Line 152" x2="90.46" transform="translate(581.873 371)" opacity="0.4" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+    <text id="_9-5" data-name="9-5" transform="translate(600.237 358.892)" fill="#11abd5" font-size="34.214" font-family="Nunito-SemiBold, Nunito" font-weight="600"><tspan x="0" y="0">9-5</tspan></text>
+    <path id="Path_656" data-name="Path 656" d="M656.9,440.466s29.13-22.3,5.374-59.3" fill="none" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.883"/>
+  </g>
+</svg>

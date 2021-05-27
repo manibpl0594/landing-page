@@ -1,0 +1,19 @@
+<svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="52" cy="52" r="51" fill="#F0F4F7" stroke="white" stroke-width="2"/>
+<path d="M18.0456 57.3C17.4789 55.7431 18.2817 54.0216 19.8386 53.4549L32.6777 48.7819L40.2073 69.4692L27.3682 74.1422C25.8113 74.7089 24.0897 73.9062 23.523 72.3492L18.0456 57.3Z" fill="white" stroke="#B8C0CC" stroke-width="2"/>
+<path d="M39.8972 69.4539L32.4497 48.9921L59.0659 31.2681C59.6052 30.909 60.3383 31.1496 60.5599 31.7584L72.5084 64.5868C72.73 65.1956 72.3231 65.8511 71.6792 65.9227L39.8972 69.4539Z" fill="white" stroke="#B8C0CC" stroke-width="2"/>
+<mask id="path-4-inside-1" fill="white">
+<rect x="33.2605" y="70.8627" width="8.00548" height="18.0767" rx="1" transform="rotate(-20 33.2605 70.8627)"/>
+</mask>
+<rect x="33.2605" y="70.8627" width="8.00548" height="18.0767" rx="1" transform="rotate(-20 33.2605 70.8627)" fill="white" stroke="#B8C0CC" stroke-width="4" mask="url(#path-4-inside-1)"/>
+<path d="M68.0564 36.0571L76.1641 28.2387" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M75.0966 55.4013L86.333 56.179" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<path d="M71.5769 45.7294L81.2489 42.209" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<circle cx="51.5223" cy="53.2453" r="9.36968" fill="white" stroke="#8836DA" stroke-width="2"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="45" y="47" width="13" height="13">
+<circle cx="51.5223" cy="53.2454" r="6.22181" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M51.5223 48.6416L52.3314 51.1317C52.4653 51.5438 52.8492 51.8227 53.2825 51.8227L55.9008 51.8227L53.7825 53.3617C53.432 53.6164 53.2854 54.0677 53.4192 54.4798L54.2283 56.9699L52.1101 55.4309C51.7596 55.1763 51.285 55.1763 50.9345 55.4309L48.8163 56.9699L49.6254 54.4798C49.7593 54.0677 49.6126 53.6164 49.2621 53.3617L47.1439 51.8227L49.7622 51.8227C50.1954 51.8227 50.5793 51.5438 50.7132 51.1317L51.5223 48.6416Z" fill="#8836DA" stroke="#8836DA"/>
+</g>
+</svg>

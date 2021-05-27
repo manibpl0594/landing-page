@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.185" height="71.867" viewBox="0 0 66.185 71.867">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc107"/>
+      <stop offset="0.507" stop-color="#f44336"/>
+      <stop offset="0.99" stop-color="#9c27b0"/>
+      <stop offset="1" stop-color="#9c27b0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.518" y1="-0.503" x2="1.507" y2="1.517" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-11.048" y1="-2.951" x2="3.983" y2="12.123" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_623" data-name="Group 623" transform="translate(-1008.748 -6810.066)">
+    <path id="social-media_1_" data-name="social-media (1)" d="M22.129,6.476H25.69V.275A45.977,45.977,0,0,0,20.5,0C9.237,0,12.3,12.757,11.854,14.626H6.187v6.933h5.665V39H18.8V21.56h5.436l.863-6.933H18.8c.306-4.589-1.237-8.151,3.333-8.151Z" transform="translate(1002.561 6823.498)" fill="#3b5999"/>
+    <g id="brands-and-logotypes" transform="translate(1044.066 6810.066)">
+      <path id="Path_776" data-name="Path 776" d="M20.534,0H9.333A9.335,9.335,0,0,0,0,9.333v11.2a9.335,9.335,0,0,0,9.333,9.333h11.2a9.335,9.335,0,0,0,9.333-9.333V9.333A9.335,9.335,0,0,0,20.534,0Zm6.533,20.534a6.541,6.541,0,0,1-6.533,6.533H9.333A6.541,6.541,0,0,1,2.8,20.534V9.333A6.541,6.541,0,0,1,9.333,2.8h11.2a6.541,6.541,0,0,1,6.533,6.533Z" fill="url(#linear-gradient)"/>
+      <path id="Path_777" data-name="Path 777" d="M135.467,128a7.467,7.467,0,1,0,7.467,7.467A7.467,7.467,0,0,0,135.467,128Zm0,12.134a4.667,4.667,0,1,1,4.667-4.667A4.673,4.673,0,0,1,135.467,140.134Z" transform="translate(-120.533 -120.533)" fill="url(#linear-gradient-2)"/>
+      <circle id="Ellipse_427" data-name="Ellipse 427" cx="1.495" cy="1.495" r="1.495" transform="translate(21.965 5.912)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="social-media_3_" data-name="social-media (3)" transform="translate(1044.066 6851.066)">
+      <path id="Path_778" data-name="Path 778" d="M6.841,148.586,5.766,152.6l-3.927.083a15.461,15.461,0,0,1-.114-14.412h0l3.5.641,1.532,3.475a9.211,9.211,0,0,0,.087,6.2Z" transform="translate(0 -129.932)" fill="#fbbb00"/>
+      <path id="Path_779" data-name="Path 779" d="M276.453,208.176a15.428,15.428,0,0,1-5.5,14.919h0l-4.4-.225-.623-3.891a9.2,9.2,0,0,0,3.958-4.7h-8.253v-6.106h14.825Z" transform="translate(-245.855 -195.626)" fill="#518ef8"/>
+      <path id="Path_780" data-name="Path 780" d="M53.765,318.224h0A15.439,15.439,0,0,1,30.509,313.5l5-4.094a9.179,9.179,0,0,0,13.227,4.7Z" transform="translate(-28.67 -290.756)" fill="#28b446"/>
+      <path id="Path_781" data-name="Path 781" d="M52.183,3.553l-5,4.093a9.178,9.178,0,0,0-13.531,4.806L28.625,8.336h0A15.437,15.437,0,0,1,52.183,3.553Z" transform="translate(-26.898)" fill="#f14336"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="286" height="164" viewBox="0 0 286 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="81" y="1" width="204" height="142" rx="9" fill="white" stroke="#B8C0CC" stroke-width="2"/>
+<circle cx="106.5" cy="15.5" r="6.5" fill="#B8C0CC"/>
+<circle cx="129.5" cy="15.5" r="6.5" fill="#B8C0CC"/>
+<path d="M81 30H285" stroke="#B8C0CC" stroke-width="2" stroke-linecap="round"/>
+<rect x="100" y="50" width="166" height="10" rx="2" fill="#EAEFF4"/>
+<rect x="100" y="70" width="28" height="21" rx="2" fill="#EAEFF4"/>
+<rect x="147" y="71" width="26" height="19" rx="1" fill="white" stroke="#00BEE7" stroke-width="2"/>
+<rect x="192" y="70" width="28" height="21" rx="2" fill="#EAEFF4"/>
+<rect x="239" y="71" width="26" height="19" rx="1" fill="white" stroke="#00BEE7" stroke-width="2"/>
+<rect x="100" y="103" width="28" height="21" rx="2" fill="#00BEE7"/>
+<rect x="146" y="103" width="28" height="21" rx="2" fill="#EAEFF4"/>
+<rect x="193" y="104" width="26" height="19" rx="1" fill="white" stroke="#00BEE7" stroke-width="2"/>
+<rect x="239" y="104" width="26" height="19" rx="1" fill="white" stroke="#00BEE7" stroke-width="2"/>
+<path d="M47.4843 164H13.4859C6.03698 164 0 157.962 0 150.512V116.51C0 91.9256 19.9231 72 44.5047 72H47.4953C72.0769 72 92 91.9256 92 116.51V119.501C91.9889 144.074 72.0658 164 47.4843 164Z" fill="white"/>
+<path opacity="0.4" d="M14.0879 118V149.36C14.0879 156.887 20.2528 163 27.8681 163H14.7802C7 163 1 159 1 149.36V118C1 90.5 21.3516 73 46.4615 73C48.6813 73 50.8681 73.1523 53 73.4677C31 76.6004 14.0879 95.3423 14.0879 118Z" fill="#00BEE7" fill-opacity="0.4"/>
+<path d="M47.5011 74.2238C70.818 74.2238 89.7873 93.1931 89.7873 116.51V119.501C89.7873 142.818 70.818 161.787 47.5011 161.787H13.4987C7.28305 161.787 2.23495 156.739 2.23495 150.524V116.521C2.23495 93.2043 21.2042 74.235 44.5211 74.235H47.5011V74.2238ZM47.5011 72H44.51C19.9256 72 0 91.9256 0 116.51V150.512C0 157.962 6.03771 164 13.4876 164H47.49C72.0744 164 92 144.074 92 119.49V116.499C92.0111 91.9256 72.0856 72 47.5011 72Z" fill="#00BEE7"/>
+<ellipse rx="3.49848" ry="5" transform="matrix(0.997564 -0.0697565 0.0677146 0.997705 74.4906 106)" fill="#D7DEE2"/>
+<ellipse rx="3.49999" ry="5" transform="matrix(0.997564 -0.0697565 0.0677146 0.997705 55.5039 106)" fill="#D7DEE2"/>
+<path d="M32 126.033C39.9762 143.07 82.9924 145.074 103 111" stroke="#D7DEE2" stroke-width="2" stroke-linecap="round"/>
+<circle cx="103" cy="111" r="4" fill="#D7DEE2"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.869" height="67.44" viewBox="0 0 63.869 67.44">
+  <g id="Group_624" data-name="Group 624" transform="translate(-455.5 -7031.628)">
+    <path id="Path_784" data-name="Path 784" d="M18996.08,7060.258h62.021" transform="translate(-18539.58)" fill="none" stroke="#ccc" stroke-width="2"/>
+    <path id="Path_783" data-name="Path 783" d="M19000.932,7064.626v-32h46.457v32.709" transform="translate(-18537.432)" fill="#fff" stroke="#ccc" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_782" data-name="Path 782" d="M18986.115,7060.258v37.811h61.869v-37.811l-31.4,19Z" transform="translate(-18529.615)" fill="none" stroke="#ccc" stroke-linejoin="round" stroke-width="2"/>
+    <g id="tools-and-utensils" transform="translate(477.971 7041.983)">
+      <g id="Group_614" data-name="Group 614" transform="translate(-0.993 -1)">
+        <g id="Group_613" data-name="Group 613" transform="translate(0 0)">
+          <path id="Path_785" data-name="Path 785" d="M8.14,186.12l-2.6,2.6a2.754,2.754,0,0,1-3.895-3.894l5.193-5.193a2.753,2.753,0,0,1,3.894,0,.918.918,0,1,0,1.3-1.3,4.589,4.589,0,0,0-6.49,0L.351,183.524a4.59,4.59,0,0,0,6.491,6.49l2.6-2.6a.918.918,0,1,0-1.3-1.3Z" transform="translate(0.993 -169.327)" fill="#56207d"/>
+          <path id="Path_786" data-name="Path 786" d="M202.407.344a4.59,4.59,0,0,0-6.491,0L192.8,3.459a.918.918,0,0,0,1.3,1.3l3.115-3.115a2.754,2.754,0,0,1,3.895,3.894L195.4,11.248a2.753,2.753,0,0,1-3.894,0,.918.918,0,1,0-1.3,1.3,4.589,4.589,0,0,0,6.49,0l5.712-5.712A4.589,4.589,0,0,0,202.407.344Z" transform="translate(-181.72 1)" fill="#56207d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

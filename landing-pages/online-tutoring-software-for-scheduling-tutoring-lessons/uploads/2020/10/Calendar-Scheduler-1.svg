@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105.719" height="105.719" viewBox="0 0 105.719 105.719">
+  <g id="group_meetings" data-name="group meetings" transform="translate(-378.388 -331.014)">
+    <circle id="Ellipse_194" data-name="Ellipse 194" cx="52.86" cy="52.86" r="52.86" transform="translate(378.388 331.014)" fill="#f0f4f7"/>
+    <g id="Group_537" data-name="Group 537" transform="translate(-1551.628 -153.252)">
+      <rect id="Rectangle_650" data-name="Rectangle 650" width="102.596" height="57.456" rx="9" transform="translate(2011.111 486.049) rotate(90)" stroke-width="2" stroke="#b8c0cc" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <rect id="Rectangle_651" data-name="Rectangle 651" width="17.011" height="45.171" rx="2.754" transform="translate(2004.969 553.413) rotate(90)" fill="#b8c0cc" opacity="0.5"/>
+      <rect id="Rectangle_652" data-name="Rectangle 652" width="16.489" height="47.856" rx="2.791" transform="translate(2006.311 533.046) rotate(90)" fill="#f0f4f7"/>
+      <rect id="Rectangle_653" data-name="Rectangle 653" width="16.489" height="47.856" rx="2.791" transform="translate(2006.311 513.649) rotate(90)" fill="#f0f4f7"/>
+      <rect id="Rectangle_654" data-name="Rectangle 654" width="16.489" height="47.856" rx="2.791" transform="translate(2006.311 494.251) rotate(90)" fill="#f0f4f7"/>
+      <circle id="Ellipse_334" data-name="Ellipse 334" cx="4.445" cy="4.445" r="4.445" transform="translate(1977.938 575.95)" fill="#b8c0cc"/>
+      <g id="Group_536" data-name="Group 536" transform="translate(1978.83 558.366)">
+        <line id="Line_154" data-name="Line 154" x2="7.106" transform="translate(0 3.553)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_155" data-name="Line 155" y2="7.106" transform="translate(3.553)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
