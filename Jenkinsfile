@@ -20,6 +20,10 @@ pipeline {
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
                         sh 'ls root/'
+                        dir('root'){
+                            sh 'pwd'
+                            sh 'bash ../qa-run.sh'
+                        } 
                         sh 'ls -la'                                      
                         sh 'pwd'                                                                      
                     }
