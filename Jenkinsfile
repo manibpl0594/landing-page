@@ -16,9 +16,11 @@ pipeline {
                         sh 'go get github.com/srikrsna/ayna'
                         sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"
                         sh 'rm -rf root/*'
+                        sh 'ls -a'
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
-                        sh 'ls root/'                
+                        sh 'ls root/'
+                        sh 'ls -la'                                      
                         sh 'pwd'                                                                      
                     }
                 }
