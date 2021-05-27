@@ -1,7 +1,7 @@
 #!/bin/bash
 #git pull
 #read -p "module name:" x
-ayna -single http://appointy.com/${env.Module}/
+#ayna -single http://appointy.com/${env.Module}/
 echo "url: http://appointy.com/${env.Module}/"
 cd root/
 mv wp-content/* ${env.Module}/
