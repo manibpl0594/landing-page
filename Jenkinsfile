@@ -28,11 +28,7 @@ pipeline {
                             sh 'rm -rf wp-includes'
                             sh 'mkdir -p $Module/uploads/2020/04'
                             sh 'cp ../cropped-* $Module/uploads/2020/04/'
-                            sh 'uncss $Module/index.html > $Module/xy.css'                                                   
-                            sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s/http:/https:/g"'
-                            sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/appointy.com|/qa-www.appointy.com|g"'
-                            sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-content|/$Module|g"'
-                            sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-includes|/$Module|g"'
+                            sh 'uncss $Module/index.html > $Module/xy.css'
                             sh 'chmod 755 $Module/xy.css'
                             sh 'ls -a $Module/'
                             sh 'ls -a'
@@ -41,8 +37,8 @@ pipeline {
                             
                             sh 'ls -a'
                             sh 'pwd'
-                        sh 'rsync -Parv /home/jenkins/workspace/mani-test/root/$Module/* landing-pages/$Module/'
-                        sh 'rm -rf root/*'    
+                            sh 'rsync -Parv /home/jenkins/workspace/mani-test/root/$Module/* landing-pages/$Module/'
+                            sh 'rm -rf root/*'    
                     }
                 }
             }
