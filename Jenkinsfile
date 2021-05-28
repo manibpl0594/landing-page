@@ -36,7 +36,7 @@ pipeline {
                             sh 'chmod 755 $Module/xy.css'
                             sh 'ls -a $Module/'
                             sh 'ls -a'
-                            sh 'bash sed.sh'
+                            sh 'sh sed.sh'
                          }
                             
                             sh 'ls -a'
