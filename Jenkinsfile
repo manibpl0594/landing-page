@@ -37,7 +37,7 @@ pipeline {
                             sh 'ls -a $Module/'
                             sh 'ls -a'
                             sh 'sh sed.sh'
-                            sh 'cat $Module/index | grep xy.css'
+                           
                          }
                             
                             sh 'ls -a'
