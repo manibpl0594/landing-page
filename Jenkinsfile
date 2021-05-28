@@ -35,6 +35,7 @@ pipeline {
                             sh 'chmod 755 $Module/xy.css'
                             sh 'ls -a $Module/'
                          }
+                            sh 'ls -a'
                         sh 'rsync -Parv /home/jenkins/workspace/landing-pages/root/$Module/* landig-pages/$Module/'
                         sh 'rm -rf root/*'    
                     }
