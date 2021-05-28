@@ -14,7 +14,8 @@ pipeline {
                                         parameters:[choice(choices: CHOICES, description: 'Select a tag for this build', name: 'TAG')]
                         echo "Deploying ${env.Module}."
                         sh 'go get github.com/srikrsna/ayna'
-                        sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"                        
+                        sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"  
+                        sh 'rm -rf root/*'                      
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
                         sh 'ls root/'                       
@@ -22,6 +23,20 @@ pipeline {
                         dir('root'){
                             sh 'pwd'
                             sh 'ls -a'
+                            sh 'mv wp-content/* $x/'
+                            sh 'mv wp-includes/* $x/'
+                            sh 'rm -rf  wp-content'
+                            sh 'rm -rf wp-includes'
+                            sh 'mkdir -p $x/uploads/2020/04'
+                            sh 'cp ../cropped-* $x/uploads/2020/04/'
+                            sh 'uncss $x/index.html > $x/xy.css'
+cd $x
+find . -type f -name index.html -print0 | xargs -0 sed -i -e "s|/cache/asset-cleanup/css/head-.*\.css|/xy.css|g"
+#find . -type f -name index.html -print0 | xargs -0 sed -i '' -e "s|/cache/asset-cleanup/css/head-f85fcedc95322507df634d2a73b50423d6319bd2.css|/xy.css|g"
+find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s/http:/https:/g"
+find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/appointy.com|/qa-www.appointy.com|g"
+find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-content|/$x|g"
+find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-includes|/$x|g"
                            
                         }
                         
