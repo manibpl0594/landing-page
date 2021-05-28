@@ -18,11 +18,9 @@ pipeline {
                         sh 'rm -rf root/*'
                         sh "ayna -single http://appointy.com/${env.Module}"
                         sh "cat /etc/hosts"
-                        sh 'ls root/'
-                        dir('root'){
-                            sh 'pwd'
-                            sh 'bash ../changes-qa.sh'
-                        }
+                        sh 'ls root/'                       
+                        sh 'pwd'
+                        sh 'bash changes-qa.sh'                        
                         sh 'pwd'                                                                      
                     }
                 }
