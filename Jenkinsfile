@@ -17,6 +17,7 @@ pipeline {
                         sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"
                         sh 'rm -rf root/*'                    
                         sh "ayna -single http://appointy.com/${env.Module}"
+                        sh 'cp sed.sh root/'
                         dir('root'){
                             sh 'pwd'
                             echo "Deploying ${env.Module}."
@@ -34,7 +35,9 @@ pipeline {
                             sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-includes|/$Module|g"'
                             sh 'chmod 755 $Module/xy.css'
                             sh 'ls -a $Module/'
+                            sh 'bash sed.sh'
                          }
+                            
                             sh 'ls -a'
                         sh 'rsync -Parv /home/jenkins/workspace/landing-pages/root/$Module/* landig-pages/$Module/'
                         sh 'rm -rf root/*'    
