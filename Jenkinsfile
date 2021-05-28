@@ -37,8 +37,6 @@ pipeline {
                             sh 'ls -a $Module/'
                             sh 'ls -a'
                             sh 'sh sed.sh'
-                        
-                           
                          }
                             
                             sh 'ls -a'
