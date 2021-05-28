@@ -38,7 +38,7 @@ pipeline {
                             sh 'ls -a'
                             sh 'pwd'
                             sh 'rsync -Parv /home/jenkins/workspace/mani-test/root/$Module/* landing-pages/$Module/'
-                            sh 'rm -rf root/*'    
+                            sh 'rm -rf root/*'
                     }
                 }
             }
