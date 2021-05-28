@@ -33,7 +33,7 @@ pipeline {
                             sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-content|/$Module|g"'
                             sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-includes|/$Module|g"'
                             sh 'chmod 755 $Module/xy.css'
-                            sh 'ls -a $Module/*'
+                            sh 'ls -a $Module/'
                          }
                         sh 'rsync -Parv /home/jenkins/workspace/landing-pages/root/$Module/* landig-pages/$Module/'
                         sh 'rm -rf root/*'    
