@@ -15,8 +15,7 @@ pipeline {
                         echo "${Module}"
                         sh 'echo $Module'                        
                         sh "echo '10.0.0.135 appointy.com' >> /etc/hosts"
-                        sh 'rm -rf root/*'
-                        sh 'cp change-qa.sh root/'
+                        sh 'rm -rf root/*'                    
                         sh "ayna -single http://appointy.com/${env.Module}"
                         dir('root'){
                             sh 'pwd'
