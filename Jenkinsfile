@@ -29,7 +29,7 @@ pipeline {
                             sh 'mkdir -p $Module/uploads/2020/04'
                             sh 'cp ../cropped-* $Module/uploads/2020/04/'
                             sh 'uncss $Module/index.html > $Module/xy.css'
-                            sh "find . -type f -name index.html -print0 | xargs -0 sed -i -e s|/cache/asset-cleanup/css/head-.*\.css|/xy.css|g"                            
+                            sh 'find . -type f -name index.html -print0 | xargs -0 sed -i -e s|/cache/asset-cleanup/css/head-.*\.css|/xy.css|g'                           
                             sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s/http:/https:/g"'
                             sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/appointy.com|/qa-www.appointy.com|g"'
                             sh 'find . -type f -name index.html -print0 | xargs -0 sed -i  -e "s|/wp-content|/$Module|g"'
